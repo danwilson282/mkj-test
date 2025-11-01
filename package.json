@@ -9,7 +9,7 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "bddgen": "npx bddgen",
+    "new-test": "npx bddgen",
     "test": "npx bddgen && playwright test",
     "test:gui": "npx bddgen && playwright test --ui"
   },
